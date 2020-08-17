@@ -1,0 +1,2 @@
+- stats/
+	- ``GET /`` ~ Returns the gathered stats. used for botlist posting etc.

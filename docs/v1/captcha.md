@@ -1,0 +1,2 @@
+- captcha/
+	- ``GET /`` ~ Returns generated captcha with data: ```{ code: String, buffer: Buffer }```

@@ -1,0 +1,10 @@
+site_name: Captcha API
+nav:
+    - Home: Home.md
+    - Version 1:
+        - Protected: v1/protected.md
+        - Stats: v1/stats.md
+        - Captcha: v1/captcha.md
+theme:
+    name: lux
+    nav_style: dark
