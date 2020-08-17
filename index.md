@@ -5,7 +5,7 @@ The following endpoints are in use for [API Version 1](https://api.captchabot.xy
 ***
 # v1/
 
-- protected/
+- protected/ - REQUIRES AUTHENTICATION
 
 	- ``config/``</br></br>
 		- ``GET :id`` ~ Returns the guild config of the specified ``id``. If none is found return the default config.</br></br>
