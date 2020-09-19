@@ -15,7 +15,7 @@
     
     
       
-        <title>Stats - Captcha API</title>
+        <title>Prefix - Captcha API</title>
       
     
     
@@ -72,7 +72,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Stats
+              Prefix
             
           </span>
         </div>
@@ -191,18 +191,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-    <a href="./" title="Stats" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../stats/" title="Stats" class="md-nav__link">
       Stats
     </a>
-    
   </li>
 
         
@@ -222,11 +215,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../prefix/" title="Prefix" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="Prefix" class="md-nav__link md-nav__link--active">
       Prefix
     </a>
+    
   </li>
 
         
@@ -251,13 +251,12 @@
                   
                 
                 
-                  <h1>Stats</h1>
+                  <h1>Prefix</h1>
                 
-                <ul>
-<li>stats/<ul>
-<li><code>GET /</code> ~ Returns the gathered stats. used for botlist posting etc.</li>
-</ul>
-</li>
+                <p><strong>INTERNAL USE ONLY</strong></p>
+<ul>
+<li><code>GET /:id</code> ~ Get the prefix for a certain guild.</li>
+<li><code>POST /:id</code> ~ Set the prefix for a certain guild.</li>
 </ul>
                 
               
@@ -277,7 +276,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../protected/" title="Protected" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../captcha/" title="Captcha" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -286,25 +285,11 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Protected
-              </div>
-            </div>
-          </a>
-        
-        
-          <a href="../captcha/" title="Captcha" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
                 Captcha
               </div>
             </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
           </a>
+        
         
       </nav>
     </div>
